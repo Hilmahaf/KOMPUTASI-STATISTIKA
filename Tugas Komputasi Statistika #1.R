@@ -1,9 +1,4 @@
-#' ---
-#' title: "Tugas Komputasi Statistika #1"
-#' output: 
-#'   html_document:
-#'     css: "style.css"
-#' ---
+#Komputasi Statistika
 
 #Vector Numeric
 V_numeric <- c(2.5,3.7,4.5,5.5)
@@ -20,6 +15,15 @@ V_logical
 #Vector Character
 V_character <- c("Barbie","Hermione","Ron","Harry")
 V_character
+
+#Vektor Kolom
+angka <- c(1,2,3,4,5)
+V_kolom <- matrix(angka, ncol= 1)
+V_kolom
+
+#Vektor Baris
+V_Baris <- matrix(angka, nrow = 1)
+V_Baris
 
 #Matrix
 Matriks <- matrix(6:21,nrow = 4,ncol = 4)
@@ -47,7 +51,8 @@ Listku <- list(
     V_num = V_numeric,
     V_int = V_integer,
     DF = df,
-    matriks = Matriks
+    matriks = Matriks,
+    V_row = V_Baris
   )
 )
   Listku
