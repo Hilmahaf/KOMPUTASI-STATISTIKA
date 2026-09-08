@@ -21,7 +21,7 @@ V_logical
 V_character <- c("Barbie","Hermione","Ron","Harry")
 V_character
 
-#Matrix 4D
+#Matrix
 Matriks <- matrix(6:21,nrow = 4,ncol = 4)
 Matriks
 
